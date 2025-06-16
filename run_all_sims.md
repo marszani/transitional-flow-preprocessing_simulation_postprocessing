@@ -20,7 +20,7 @@ Control running Python simulation processes inside a Docker container by sending
 
 ---
 
-Details
+## Details
 	•	Container Name:
 The script targets the Docker container named "mach_aero_backup".
 	•	Python Interpreter Path:
@@ -35,7 +35,7 @@ Sends the appropriate UNIX signal to each matched PID inside the Docker containe
 
 ---
 
-Notes
+## Notes
 	•	Requires Docker installed and the specified container running.
 	•	The Python interpreter path inside the container must match the one in the script.
 	•	The user running the script must have permission to execute Docker commands.
@@ -43,7 +43,7 @@ Notes
 
 ---
 
-Example
+## Example
 
 To gracefully stop all running simulations and allow cleanup:
 

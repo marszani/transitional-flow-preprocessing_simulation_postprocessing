@@ -44,9 +44,9 @@ Conduct CFD simulations for laminar and turbulence models (Menter SST, Langtry M
   - Example tuple: Mach 0.1, Reynolds 60,000, AoA 4°
   - Extendable list of `(mach, reynolds, alpha)` tuples
 
-- **Parameter Ranges**:
-  - Turbulence Intensity: `[0.0008]`
-  - Eddy Viscosity Ratio: `[0.001]`
+- **Parameter Ranges**: (could be extended)
+  - Turbulence Intensity: `[0.0005, 0.0008]` 
+  - Eddy Viscosity Ratio: `[0.001, 0.001]` 
 
 - **ADflow Solver Settings**:
   - RANS or laminar NS equations
@@ -116,7 +116,7 @@ python run_param_study.py --task analysis --output sim --turbulenceModels "Langt
 
 ---
 
-Notes
+## Notes
 	•	If "laminar" is passed, it is internally remapped to "Langtry Menter SST".
 	•	Restart file functionality is included in comments and can be activated.
 	•	Additional models, grid levels, and parameter combinations can be added by extending the lists at the top of the script.
