@@ -1,6 +1,4 @@
-Here is the cleaned and finalized version of the Markdown documentation for run_param_study.py, formatted for inclusion as a single .md file:
-
-# Parametric Study of Turbulence Intensity and Eddy Viscosity Ratio
+# Parametric study of turbulence intensity and eddy viscosity ratio
 
 **File:** `run_param_study.py`
 
@@ -112,11 +110,13 @@ conv_hist/conv_hist_.pkl
 
 Run a single analysis case:
 ```bash
-python run_param_study.py --task analysis --output sim --turbulenceModels "Langtry Menter SST"
+python run_param_study.py --task analysis --output sim --turbulenceModels `Langtry Menter SST`
+```
+
 
 ---
 
 ## Notes
-	•	If "laminar" is passed, it is internally remapped to "Langtry Menter SST".
+	•	If `laminar` is passed, it is internally remapped to `Langtry Menter SST`.
 	•	Restart file functionality is included in comments and can be activated.
 	•	Additional models, grid levels, and parameter combinations can be added by extending the lists at the top of the script.
