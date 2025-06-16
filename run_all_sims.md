@@ -18,7 +18,7 @@ Control running Python simulation processes inside a Docker container by sending
 	•	kill: Sends a kill signal (KILL) to forcibly terminate simulations.
 	•	save_and_stop: Sends a user-defined signal (USR2) to request save and then stop.
 
-⸻
+---
 
 Details
 	•	Container Name:
@@ -33,7 +33,7 @@ Uses ps aux inside the container combined with awk to identify PIDs of Python pr
 	•	Signal Sending:
 Sends the appropriate UNIX signal to each matched PID inside the Docker container.
 
-⸻
+---
 
 Notes
 	•	Requires Docker installed and the specified container running.
@@ -41,7 +41,7 @@ Notes
 	•	The user running the script must have permission to execute Docker commands.
 	•	The script prints status messages indicating the processes found and signals sent.
 
-⸻
+---
 
 Example
 

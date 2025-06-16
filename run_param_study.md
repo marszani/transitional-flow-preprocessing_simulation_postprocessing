@@ -114,7 +114,7 @@ Run a single analysis case:
 ```bash
 python run_param_study.py --task analysis --output sim --turbulenceModels "Langtry Menter SST"
 
-⸻
+---
 
 Notes
 	•	If "laminar" is passed, it is internally remapped to "Langtry Menter SST".
