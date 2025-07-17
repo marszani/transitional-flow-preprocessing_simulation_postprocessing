@@ -1,0 +1,16 @@
+
+
+
+Results for e178_L0.cgns:
+{'e178_L0_cd': 0.0232, 'e178_L0_cl': 0.6223 }
+
+Results for e178_L1.cgns:
+{'e178_L1_cd': 0.0243, 'e178_L1_cl': 0.6653}
+
+Results for e178_L2.cgns:
+{'e178_L2_cd': 0.0270, 'e178_L2_cl': 0.7165}
+
+
+
+Total number of cells: 119201 66901 44551 
+
